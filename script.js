@@ -24,4 +24,21 @@ appDate.expenses.a3 = a4;
 
 alert(appDate.budget / 30);
 
+/* if   () {
+        console.log("Верно!")
+    } else {
+        console.log("Неверно!")
+    }
+ */
 
+let num = 45;
+
+if (num < 44){
+    console.log("неверно")
+} else if (num > 50) {
+    console.log("много")
+} else   {
+    console.log("верно")
+}
+
+num (num)
