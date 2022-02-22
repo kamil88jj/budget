@@ -23,9 +23,6 @@ for (let i = 0; i < 2; i ++) {
     if ((typeof(a)) === "string" && (typeof(a)) !=null && (typeof(b)) !=null && a != '' && b !='' && a.length < 50) {
         console.log("done");
         appDate.expenses[a] = b;  
-    } else {
-        console.log(appDate.expenses[a] = b);
-    }
 };
 
 appData.moneyPerDay = appDate.budget / 30;
@@ -39,5 +36,4 @@ if (appDate.moneyPerDay < 100) {
 } else if (appData.moneyPerDay > 2000 ) {
     console.log("Высокий уровень достатка");
 } else {
-    console.log ("Произошла ошибка");
-}
+    console.log ("Произошла ошибка")};
